@@ -26,14 +26,15 @@
 package be.belgif.dw.ldf.helpers;
 
 import be.belgif.dw.ldf.health.RdfStoreHealthCheck;
-import be.belgif.dw.ldf.resources.LdfResource;
 import be.belgif.dw.ldf.tasks.LuceneReindexTask;
 import be.belgif.dw.ldf.tasks.RDFExportTask;
 import be.belgif.dw.ldf.tasks.RDFImportTask;
+
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import io.dropwizard.lifecycle.Managed;
 import io.dropwizard.setup.Environment;
+
 import java.io.File;
 
 import org.eclipse.rdf4j.repository.Repository;

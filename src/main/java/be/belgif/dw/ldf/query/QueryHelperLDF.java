@@ -84,8 +84,8 @@ public class QueryHelperLDF {
 
 	private final static String PAGE = "page";
 
-	private final static int PAGING = 50;
-	private final static Value PAGING_VAL = F.createLiteral("50", XMLSchema.INTEGER);
+	private final static int PAGING = 100;
+	private final static Value PAGING_VAL = F.createLiteral("100", XMLSchema.INTEGER);
 
 	private final static String Q_COUNT
 			= "SELECT (COUNT(*) AS ?cnt) "
